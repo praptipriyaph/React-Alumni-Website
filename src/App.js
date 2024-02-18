@@ -6,7 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Home from './pages/Home/Home';
 import Networks from './pages/Networks/Networks';
 import About from './pages/About/About';
-import Blog from './pages/Blog/Blog';
+import Alumni from './pages/Alumni/Alumni';
 import Contact from './pages/Contact/Contact';
 
 function App() {
@@ -30,7 +30,7 @@ function App() {
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='me-auto justify-content-end w-100'>
               <Nav.Link href='/' className='text-uppercase'>Home</Nav.Link>
-              <Nav.Link href='/blog' className='text-uppercase'>Blog</Nav.Link>
+              <Nav.Link href='/Alumni' className='text-uppercase'>Alumni</Nav.Link>
               <Nav.Link href='/networks' className='text-uppercase'>Our Network</Nav.Link>
               <Nav.Link href='/about' className='text-uppercase'>About us</Nav.Link>
               <Nav.Link href='/contact' className='text-uppercase'>Get in touch</Nav.Link>
@@ -43,7 +43,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/networks' element={<Networks />} />
         <Route path='/about' element={<About />} />
-        <Route path='/blog' element={<Blog />} />
+        <Route path='/Alumni' element={<Alumni />} />
         <Route path='/contact' element={<Contact />} />
       </Routes>
 
@@ -98,8 +98,8 @@ function App() {
                     <Link to="/about" className='text-decoration-none text-danger'>
                       <li className='text-uppercase fw-semibold'>About us</li>
                     </Link>
-                    <Link to="/blog" className='text-decoration-none text-danger'>
-                      <li className='text-uppercase fw-semibold'>Blog</li>
+                    <Link to="/Alumni" className='text-decoration-none text-danger'>
+                      <li className='text-uppercase fw-semibold'>Alumni</li>
                     </Link>
                     <Link to="/contact" className='text-decoration-none text-danger'>
                       <li className='text-uppercase fw-semibold'>Get In Touch</li>
