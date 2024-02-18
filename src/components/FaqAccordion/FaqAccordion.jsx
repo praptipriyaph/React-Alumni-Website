@@ -27,7 +27,8 @@ function FaqAccordion() {
                 <Accordion.Item eventKey='3'>
                     <Accordion.Header>How can I contact any alumni?</Accordion.Header>
                     <Accordion.Body>
-                    Simply go to "Get in Touch" page to contact any alumni.                   </Accordion.Body>
+                        Simply go to "Get in Touch" page to contact any alumni.                   
+                    </Accordion.Body>
                 </Accordion.Item>
             </Accordion>
         </div>
