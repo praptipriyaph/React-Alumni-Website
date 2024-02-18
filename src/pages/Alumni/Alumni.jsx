@@ -16,55 +16,55 @@ const alumnis = [
     {
         id: 1,
         img: [Alumni1Img],
-        title: 'Alumni 1',
+        title: 'Uddipana Dihingia',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.'
     },
     {
         id: 2,
         img: [Alumni2Img],
-        title: 'Alumni 2',
+        title: 'Shreyasee Dev',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.'
     },
     {
         id: 3,
         img: [Alumni3Img],
-        title: 'Alumni 3',
+        title: 'Shravan Kumar',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.'
     },
     {
         id: 4,
         img: [Alumni4Img],
-        title: 'Alumni 4',
+        title: 'Jyotirmoy Kumar',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.'
     },
     {
         id: 5,
         img: [Alumni5Img],
-        title: 'Alumni 5',
+        title: 'Filza Priya Borah',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.'
     },
     {
         id: 6,
         img: [Alumni6Img],
-        title: 'Alumni 6',
+        title: 'Debjyoti Paul',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.'
     },
     {
         id: 7,
         img: [Alumni7Img],
-        title: 'Alumni 7',
+        title: 'Bishal Nath',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.'
     },
     {
         id: 8,
         img: [Alumni8Img],
-        title: 'Alumni 8',
+        title: 'Arindam Nandi',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.'
     },
     {
         id: 9,
         img: [Alumni9Img],
-        title: 'Alumni 9',
+        title: 'Angshuman Biswas',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.'
     },
 ];
@@ -74,8 +74,8 @@ function Alumni() {
     <div className='alumni-page'>
         <header className='height-75'>
             <div className='container h-100 d-flex flex-column align-items-center justify-content-center text-light'>
-                <h1 className='text-center fw-semibold'>Alumni</h1>
-                <p className='text-center w-75 mb-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.</p>
+                <h1 className='text-center fw-semibold'>Our Alumni</h1>
+                <p className='text-center w-75 mb-5'>Explore our global network of alumni, spanning across continents and cultures, united by shared experiences and boundless opportunities. Join us as we celebrate the diverse journeys and remarkable achievements of our graduates, making an impact in every corner of the world.</p>
             </div>
         </header>
 
