@@ -64,17 +64,17 @@ const networks = [
 
 function Networks() {
   return (
-    <div className='Networks-page'>
+    <div className='networks-page'>
         <header className='height-75'>
             <div className='container h-100 d-flex flex-column align-items-center justify-content-center text-light'>
-                <h1 className='text-center fw-semibold'>Our Networks</h1>
+                <h1 className='text-center fw-semibold'>Our Network</h1>
                 <p className='text-center w-75 mb-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!</p>
             </div>
         </header>
 
         <div className='container py-5'>
             <div className='row g-4'>
-                {Networks.map((Network) => (
+                {networks.map((Network) => (
                     <div key={Network.id} className='col-lg-6'>
                         <Card className='text-white shadow scale-hover-effect'>
                             <Card.Img src={Network.img} />

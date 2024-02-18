@@ -31,7 +31,7 @@ function App() {
             <Nav className='me-auto justify-content-end w-100'>
               <Nav.Link href='/' className='text-uppercase'>Home</Nav.Link>
               <Nav.Link href='/blog' className='text-uppercase'>Blog</Nav.Link>
-              <Nav.Link href='/Networks' className='text-uppercase'>Our Networks</Nav.Link>
+              <Nav.Link href='/networks' className='text-uppercase'>Our Network</Nav.Link>
               <Nav.Link href='/about' className='text-uppercase'>About us</Nav.Link>
               <Nav.Link href='/contact' className='text-uppercase'>Get in touch</Nav.Link>
             </Nav>
@@ -41,7 +41,7 @@ function App() {
 
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/Networks' element={<Networks />} />
+        <Route path='/networks' element={<Networks />} />
         <Route path='/about' element={<About />} />
         <Route path='/blog' element={<Blog />} />
         <Route path='/contact' element={<Contact />} />
@@ -92,8 +92,8 @@ function App() {
                     <Link to="/" className='text-decoration-none text-danger'>
                       <li className='text-uppercase fw-semibold'>Home</li>
                     </Link>
-                    <Link to="/Networks" className='text-decoration-none text-danger'>
-                      <li className='text-uppercase fw-semibold'>Our Networks</li>
+                    <Link to="/networks" className='text-decoration-none text-danger'>
+                      <li className='text-uppercase fw-semibold'>Our Network</li>
                     </Link>
                     <Link to="/about" className='text-decoration-none text-danger'>
                       <li className='text-uppercase fw-semibold'>About us</li>
