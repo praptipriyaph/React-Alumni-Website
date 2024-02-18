@@ -1,14 +1,14 @@
 import React from 'react';
 import './Networks.css';
 import { Card } from 'react-bootstrap';
-import ArtNetworkImg from '../../utils/images/art-Network.jpg';
-import BusinessNetworkImg from '../../utils/images/business-Network.jpg';
-import ComputerScienceNetworkImg from '../../utils/images/computer-science-Network.jpg';
-import EducationNetworkImg from '../../utils/images/education-Network.jpg';
-import HealthcareNetworkImg from '../../utils/images/healthcare-Network.jpg';
-import LawNetworkImg from '../../utils/images/law-Network.jpg';
-import MusicNetworkImg from '../../utils/images/music-Network.jpg';
-import SportNetworkImg from '../../utils/images/sport-Network.jpg';
+import ArtNetworkImg from '../../utils/images/art-course.jpg';
+import BusinessNetworkImg from '../../utils/images/business-course.jpg';
+import ComputerScienceNetworkImg from '../../utils/images/computer-science-course.jpg';
+import EducationNetworkImg from '../../utils/images/education-course.jpg';
+import HealthcareNetworkImg from '../../utils/images/healthcare-course.jpg';
+import LawNetworkImg from '../../utils/images/law-course.jpg';
+import MusicNetworkImg from '../../utils/images/music-course.jpg';
+import SportNetworkImg from '../../utils/images/sport-course.jpg';
 import FaqAccordion from '../../components/FaqAccordion/FaqAccordion';
 
 const networks = [

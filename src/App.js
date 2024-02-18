@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Home from './pages/Home/Home';
-import Courses from './pages/Courses/Courses';
+import Networks from './pages/Networks/Networks';
 import About from './pages/About/About';
 import Blog from './pages/Blog/Blog';
 import Contact from './pages/Contact/Contact';
@@ -31,7 +31,7 @@ function App() {
             <Nav className='me-auto justify-content-end w-100'>
               <Nav.Link href='/' className='text-uppercase'>Home</Nav.Link>
               <Nav.Link href='/blog' className='text-uppercase'>Blog</Nav.Link>
-              <Nav.Link href='/courses' className='text-uppercase'>Our courses</Nav.Link>
+              <Nav.Link href='/Networks' className='text-uppercase'>Our Networks</Nav.Link>
               <Nav.Link href='/about' className='text-uppercase'>About us</Nav.Link>
               <Nav.Link href='/contact' className='text-uppercase'>Get in touch</Nav.Link>
             </Nav>
@@ -41,7 +41,7 @@ function App() {
 
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/courses' element={<Courses />} />
+        <Route path='/Networks' element={<Networks />} />
         <Route path='/about' element={<About />} />
         <Route path='/blog' element={<Blog />} />
         <Route path='/contact' element={<Contact />} />
@@ -92,8 +92,8 @@ function App() {
                     <Link to="/" className='text-decoration-none text-danger'>
                       <li className='text-uppercase fw-semibold'>Home</li>
                     </Link>
-                    <Link to="/courses" className='text-decoration-none text-danger'>
-                      <li className='text-uppercase fw-semibold'>Our courses</li>
+                    <Link to="/Networks" className='text-decoration-none text-danger'>
+                      <li className='text-uppercase fw-semibold'>Our Networks</li>
                     </Link>
                     <Link to="/about" className='text-decoration-none text-danger'>
                       <li className='text-uppercase fw-semibold'>About us</li>
