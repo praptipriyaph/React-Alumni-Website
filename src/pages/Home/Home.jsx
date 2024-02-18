@@ -5,28 +5,29 @@ import ChooseSection from '../../components/ChooseSection/ChooseSection';
 import StartCoursesImg from '../../utils/images/start-courses-img.jpg';
 import FaqAccordion from '../../components/FaqAccordion/FaqAccordion';
 import { Card } from 'react-bootstrap';
-import alumni1Img from '../../utils/images/blog1-img.jpg';
-import alumni2Img from '../../utils/images/blog2-img.jpg';
-import alumni3Img from '../../utils/images/blog3-img.jpg';
+import alumni1Img from '../../utils/images/Uddipana Dihingia -1 .jpeg';
+import alumni2Img from '../../utils/images/Debojyoti Paul -6 .jpeg';
+import alumni3Img from '../../utils/images/Arindam Nandi -8.jpeg';
 
 const alumnis = [
     {
         id: 1,
         img: [alumni1Img],
-        title: 'alumni 1',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, fugit? Doloremque deserunt ipsum eaque, dolor tempore, minima nisi debitis, et quas voluptatibus nam ex. Necessitatibus eligendi ratione expedita! Porro, ut.'
+        title: 'Uddipana Dihingia',
+        description: 'Pursuing MBA, IIM - Amritsar (2020-21)',
+
     },
     {
         id: 2,
         img: [alumni2Img],
-        title: 'alumni 2',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, fugit? Doloremque deserunt ipsum eaque, dolor tempore, minima nisi debitis, et quas voluptatibus nam ex. Necessitatibus eligendi ratione expedita! Porro, ut.'
+        title: 'Debojyoti Paul',
+        description: 'Project Engineer, Wipro Limited',
     },
     {
         id: 3,
         img: [alumni3Img],
-        title: 'alumni 3',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, fugit? Doloremque deserunt ipsum eaque, dolor tempore, minima nisi debitis, et quas voluptatibus nam ex. Necessitatibus eligendi ratione expedita! Porro, ut.'
+        title: 'Arindam Nandi',
+        description: 'Pursuing M.Tech (IT) IIIT - Allahabad',
     }
 ];
 

@@ -6,32 +6,28 @@ function FaqAccordion() {
   return (
     <div className='faq-section'>
         <div className='container d-flex flex-column align-items-center'>
-            <h2 className='text-center text-capitalize mb-5'>Frequently asked questions</h2>
-            <p className='text-center mb-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat numquam rem expedita similique necessitatibus dolore magnam natus sit ipsa, quae neque accusantium placeat laudantium mollitia, reprehenderit alias incidunt, delectus obcaecati cupiditate sed omnis repudiandae eos! Quasi unde veritatis labore quibusdam.</p>
+        <h2 className='text-center text-capitalize mb-5'>Frequently asked questions</h2>
+            <p className='text-center mb-5'>Explore our Frequently Asked Questions for quick answers to common queries. If you can't find what you're looking for, feel free to reach out to our team for personalized assistance.</p>
             <Accordion defaultActiveKey="" flush>
                 <Accordion.Item eventKey='0'>
-                    <Accordion.Header>First question ?</Accordion.Header>
+                    <Accordion.Header>What upcoming events are being organized by the alumni association?</Accordion.Header>
                     <Accordion.Body>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae ab deserunt eaque nostrum voluptate, facilis ratione quo ducimus quod qui eius nobis quam temporibus similique fugit? Molestias, illo, maxime nulla aliquid ut pariatur corrupti aspernatur dolor assumenda quos officia eos?
-                    </Accordion.Body>
+                    Check our events calendar regularly for updates on reunions, networking mixers, professional development workshops, and other alumni gatherings.                    </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey='1'>
-                    <Accordion.Header>Second question ?</Accordion.Header>
+                    <Accordion.Header>How can I register for reunions and gatherings?</Accordion.Header>
                     <Accordion.Body>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae ab deserunt eaque nostrum voluptate, facilis ratione quo ducimus quod qui eius nobis quam temporibus similique fugit? Molestias, illo, maxime nulla aliquid ut pariatur corrupti aspernatur dolor assumenda quos officia eos?
-                    </Accordion.Body>
+                    Registration for events can typically be done through our website or by contacting the alumni events coordinator directly.                    </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey='2'>
-                    <Accordion.Header>Third question ?</Accordion.Header>
+                    <Accordion.Header>Are there any networking opportunities or professional development events?</Accordion.Header>
                     <Accordion.Body>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae ab deserunt eaque nostrum voluptate, facilis ratione quo ducimus quod qui eius nobis quam temporibus similique fugit? Molestias, illo, maxime nulla aliquid ut pariatur corrupti aspernatur dolor assumenda quos officia eos?
-                    </Accordion.Body>
+                    Yes, we regularly host networking events and workshops aimed at helping alumni enhance their professional skills and expand their networks.                    </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey='3'>
-                    <Accordion.Header>Fourth question ?</Accordion.Header>
+                    <Accordion.Header>How can I contact any alumni?</Accordion.Header>
                     <Accordion.Body>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae ab deserunt eaque nostrum voluptate, facilis ratione quo ducimus quod qui eius nobis quam temporibus similique fugit? Molestias, illo, maxime nulla aliquid ut pariatur corrupti aspernatur dolor assumenda quos officia eos?
-                    </Accordion.Body>
+                    Simply go to "Get in Touch" page to contact any alumni.                   </Accordion.Body>
                 </Accordion.Item>
             </Accordion>
         </div>

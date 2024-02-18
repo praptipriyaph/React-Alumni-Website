@@ -1,7 +1,7 @@
 import React from 'react';
-import './About.css';
+import './Pride.css';
 import { Link } from 'react-router-dom';
-import AboutUsSectionImg from '../../utils/images/about-us-section-img.jpg';
+import PrideUsSectionImg from '../../utils/images/about-us-section-img.jpg';
 import ChooseSection from '../../components/ChooseSection/ChooseSection';
 import Person1 from '../../utils/images/person1.jpg';
 import Person2 from '../../utils/images/person2.jpg';
@@ -52,12 +52,12 @@ const persons = [
     },
 ];
 
-function About() {
+function Pride() {
   return (
-    <div className='about-page'>
+    <div className='pride-page'>
         <header className='height-75'>
             <div className='container h-100 d-flex flex-column align-items-center justify-content-center text-light'>
-                <h1 className='text-center fw-semibold'>About Us</h1>
+                <h1 className='text-center fw-semibold'>What Makes Us Proud ?</h1>
                 <p className='text-center w-75 mb-5'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error recusandae harum ullam repellat cum? Nisi unde, incidunt natus ut ratione dolore quasi at dolores molestias.</p>
             </div>
         </header>
@@ -73,7 +73,7 @@ function About() {
                     </Link>
                 </div>
                 <div className='col-lg-6 d-flex justify-content-center'>
-                    <img src={AboutUsSectionImg} className='img-fluid w-75' alt="" />
+                    <img src={PrideUsSectionImg} className='img-fluid w-75' alt="" />
                 </div>
             </div>
         </div>
@@ -98,4 +98,4 @@ function About() {
   )
 }
 
-export default About;
+export default Pride;

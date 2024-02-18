@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Home from './pages/Home/Home';
 import Networks from './pages/Networks/Networks';
-import About from './pages/About/About';
+import Pride from './pages/Pride/Pride';
 import Alumni from './pages/Alumni/Alumni';
 import Contact from './pages/Contact/Contact';
 
@@ -33,7 +33,7 @@ function App() {
               <Nav.Link href='/Alumni' className='text-uppercase'>Our Alumni</Nav.Link>
               <Nav.Link href='/networks' className='text-uppercase'>Our Network</Nav.Link>
               <Nav.Link href='/contact' className='text-uppercase'>Get in touch</Nav.Link>
-              <Nav.Link href='/about' className='text-uppercase'>About us</Nav.Link>
+              <Nav.Link href='/Pride' className='text-uppercase'>Our Pride</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
@@ -42,7 +42,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/networks' element={<Networks />} />
-        <Route path='/about' element={<About />} />
+        <Route path='/Pride' element={<Pride />} />
         <Route path='/Alumni' element={<Alumni />} />
         <Route path='/contact' element={<Contact />} />
       </Routes>
@@ -92,17 +92,17 @@ function App() {
                     <Link to="/" className='text-decoration-none text-danger'>
                       <li className='text-uppercase fw-semibold'>Home</li>
                     </Link>
-                    <Link to="/networks" className='text-decoration-none text-danger'>
-                      <li className='text-uppercase fw-semibold'>Our Network</li>
-                    </Link>
-                    <Link to="/about" className='text-decoration-none text-danger'>
-                      <li className='text-uppercase fw-semibold'>About us</li>
-                    </Link>
                     <Link to="/Alumni" className='text-decoration-none text-danger'>
                       <li className='text-uppercase fw-semibold'>Alumni</li>
                     </Link>
+                    <Link to="/networks" className='text-decoration-none text-danger'>
+                      <li className='text-uppercase fw-semibold'>Our Network</li>
+                    </Link>
                     <Link to="/contact" className='text-decoration-none text-danger'>
                       <li className='text-uppercase fw-semibold'>Get In Touch</li>
+                    </Link>
+                    <Link to="/Pride" className='text-decoration-none text-danger'>
+                      <li className='text-uppercase fw-semibold'>Our Pride</li>
                     </Link>
                   </ul>
                 </div>
@@ -110,15 +110,12 @@ function App() {
                   <ul className='list-unstyled mb-0'>
                     <li>
                       <p>Tezpur University</p>
-                      <p>Napaam, Tezpur</p>
-                      <p>Sonitpur, Assam (India)</p>
-                      <p>Pin - 784 028</p>
+                      <p>Napaam, Tezpur, Sonitpur, Assam (India)</p>
                     </li>
                     <li>
                       <p>Phone: +91-3712-273332</p>
                     </li>
                     <li>
-                      <p>Email/Web</p>
                       <p>Email: admn@tezu.ernet.in</p>
                       <p>Web: <a href="http://www.tezu.ernet.in" target="_blank">http://www.tezu.ernet.in</a></p>
                     </li>
