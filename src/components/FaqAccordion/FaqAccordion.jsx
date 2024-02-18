@@ -6,11 +6,7 @@ function FaqAccordion() {
   return (
     <div className='faq-section'>
         <div className='container d-flex flex-column align-items-center'>
-<<<<<<< HEAD
         <h2 className='text-center text-capitalize mb-5'>Frequently asked questions</h2>
-=======
-            <h2 className='text-center text-capitalize mb-5'>Frequently asked questions</h2>
->>>>>>> 36e368000f0debb2068099e4e434f97b5568ea51
             <p className='text-center mb-5'>Explore our Frequently Asked Questions for quick answers to common queries. If you can't find what you're looking for, feel free to reach out to our team for personalized assistance.</p>
             <Accordion defaultActiveKey="" flush>
                 <Accordion.Item eventKey='0'>
