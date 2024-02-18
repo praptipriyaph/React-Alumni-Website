@@ -109,13 +109,18 @@ function App() {
                 <div className='col-12 col-md-6 col-lg-7'>
                   <ul className='list-unstyled mb-0'>
                     <li>
-                      <p>Main Address - 47 Street Name, London UK</p>
+                      <p>Tezpur University</p>
+                      <p>Napaam, Tezpur</p>
+                      <p>Sonitpur, Assam (India)</p>
+                      <p>Pin - 784 028</p>
                     </li>
                     <li>
-                      <p>Phone Number - 0900800700</p>
+                      <p>Phone: +91-3712-273332</p>
                     </li>
                     <li>
-                      <p>Email - react@university.co.uk</p>
+                      <p>Email/Web</p>
+                      <p>Email: admn@tezu.ernet.in</p>
+                      <p>Web: <a href="http://www.tezu.ernet.in" target="_blank">http://www.tezu.ernet.in</a></p>
                     </li>
                   </ul>
                 </div>
@@ -125,7 +130,7 @@ function App() {
         </div>
         <div className='bg-body-tertiary'>
           <div className='container'>
-            <p className='p-3 m-0 text-center'>copyright @ made by Ionut Cora</p>
+            <p className='p-3 m-0 text-center'>copyright @ made by Tezpur University Alumni Team</p>
           </div>
         </div>
       </footer>
