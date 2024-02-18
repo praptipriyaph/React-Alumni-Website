@@ -1,86 +1,86 @@
 import React from 'react';
-import './Courses.css';
+import './Networks.css';
 import { Card } from 'react-bootstrap';
-import ArtCourseImg from '../../utils/images/art-course.jpg';
-import BusinessCourseImg from '../../utils/images/business-course.jpg';
-import ComputerScienceCourseImg from '../../utils/images/computer-science-course.jpg';
-import EducationCourseImg from '../../utils/images/education-course.jpg';
-import HealthcareCourseImg from '../../utils/images/healthcare-course.jpg';
-import LawCourseImg from '../../utils/images/law-course.jpg';
-import MusicCourseImg from '../../utils/images/music-course.jpg';
-import SportCourseImg from '../../utils/images/sport-course.jpg';
+import ArtNetworkImg from '../../utils/images/art-Network.jpg';
+import BusinessNetworkImg from '../../utils/images/business-Network.jpg';
+import ComputerScienceNetworkImg from '../../utils/images/computer-science-Network.jpg';
+import EducationNetworkImg from '../../utils/images/education-Network.jpg';
+import HealthcareNetworkImg from '../../utils/images/healthcare-Network.jpg';
+import LawNetworkImg from '../../utils/images/law-Network.jpg';
+import MusicNetworkImg from '../../utils/images/music-Network.jpg';
+import SportNetworkImg from '../../utils/images/sport-Network.jpg';
 import FaqAccordion from '../../components/FaqAccordion/FaqAccordion';
 
-const courses = [
+const networks = [
     {
         id: 1,
-        img: [ArtCourseImg],
-        title: 'Art Course',
+        img: [ArtNetworkImg],
+        title: 'Art Network',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!'
     },
     {
         id: 2,
-        img: [BusinessCourseImg],
-        title: 'Business Course',
+        img: [BusinessNetworkImg],
+        title: 'Business Network',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!'
     },
     {
         id: 3,
-        img: [ComputerScienceCourseImg],
-        title: 'Computer Science Course',
+        img: [ComputerScienceNetworkImg],
+        title: 'Computer Science Network',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!'
     },
     {
         id: 4,
-        img: [EducationCourseImg],
-        title: 'Education Course',
+        img: [EducationNetworkImg],
+        title: 'Education Network',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!'
     },
     {
         id: 5,
-        img: [HealthcareCourseImg],
-        title: 'Healthcare Course',
+        img: [HealthcareNetworkImg],
+        title: 'Healthcare Network',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!'
     },
     {
         id: 6,
-        img: [LawCourseImg],
-        title: 'Law Course',
+        img: [LawNetworkImg],
+        title: 'Law Network',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!'
     },
     {
         id: 7,
-        img: [MusicCourseImg],
-        title: 'Music Course',
+        img: [MusicNetworkImg],
+        title: 'Music Network',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!'
     },
     {
         id: 8,
-        img: [SportCourseImg],
-        title: 'Sport Course',
+        img: [SportNetworkImg],
+        title: 'Sport Network',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!'
     },
 ];
 
-function Courses() {
+function Networks() {
   return (
-    <div className='courses-page'>
+    <div className='Networks-page'>
         <header className='height-75'>
             <div className='container h-100 d-flex flex-column align-items-center justify-content-center text-light'>
-                <h1 className='text-center fw-semibold'>Our Courses</h1>
+                <h1 className='text-center fw-semibold'>Our Networks</h1>
                 <p className='text-center w-75 mb-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!</p>
             </div>
         </header>
 
         <div className='container py-5'>
             <div className='row g-4'>
-                {courses.map((course) => (
-                    <div key={course.id} className='col-lg-6'>
+                {Networks.map((Network) => (
+                    <div key={Network.id} className='col-lg-6'>
                         <Card className='text-white shadow scale-hover-effect'>
-                            <Card.Img src={course.img} />
+                            <Card.Img src={Network.img} />
                             <Card.ImgOverlay className='d-flex flex-column align-items-center justify-content-center p-md-5'>
-                                <Card.Title className='fs-1 text-danger'>{course.title}</Card.Title>
-                                <Card.Text className='text-center'>{course.description}</Card.Text>
+                                <Card.Title className='fs-1 text-danger'>{Network.title}</Card.Title>
+                                <Card.Text className='text-center'>{Network.description}</Card.Text>
                             </Card.ImgOverlay>
                         </Card>
                     </div>
@@ -95,4 +95,4 @@ function Courses() {
   )
 }
 
-export default Courses;
+export default Networks;
