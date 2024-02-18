@@ -30,10 +30,10 @@ function App() {
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='me-auto justify-content-end w-100'>
               <Nav.Link href='/' className='text-uppercase'>Home</Nav.Link>
-              <Nav.Link href='/Alumni' className='text-uppercase'>Alumni</Nav.Link>
+              <Nav.Link href='/Alumni' className='text-uppercase'>Our Alumni</Nav.Link>
               <Nav.Link href='/networks' className='text-uppercase'>Our Network</Nav.Link>
-              <Nav.Link href='/about' className='text-uppercase'>About us</Nav.Link>
               <Nav.Link href='/contact' className='text-uppercase'>Get in touch</Nav.Link>
+              <Nav.Link href='/about' className='text-uppercase'>About us</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

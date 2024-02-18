@@ -1,11 +1,15 @@
 .networks-page header {
-    background-image: linear-gradient(rgba(5, 10, 35, 0.75), rgba(5, 10, 35, 0.75)), url(../../utils/images/courses-page-header.jpg);
+    background-image: linear-gradient(rgba(5, 10, 35, 0.78), rgba(5, 10, 35, 0.78)), url(../../utils/images/networks-page-header.jpg);
 }
 
 .networks-page .card-img-overlay {
-    background-color: rgba(5, 10, 35, 0.7);
+    background-color: rgba(5, 10, 35, 0.721);
 }
 
 .networks-page .card:hover {
     cursor: pointer;
+}
+
+.headtext{
+    text-decoration-color: #9CFEFF;
 }
