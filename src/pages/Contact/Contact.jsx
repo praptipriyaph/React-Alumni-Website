@@ -15,7 +15,7 @@ function Contact() {
             <div className='container h-100 d-flex flex-column align-items-center justify-content-center text-light pt-13'>
                 <h1 className='text-center fw-semibold mb-5'>Get In Touch With Us</h1>
                 
-                <p className='text-center w-75 mb-3'>At Tezput University, we believe in the enduring power of connections. Every message you send, every word you share, is a bridge that spans the years, bringing us closer together.</p>
+                <p className='text-center w-75 mb-3'>At Tezpur University, we believe in the enduring power of connections. Every message you send, every word you share, is a bridge that spans the years, bringing us closer together.</p>
                 <p className='text-center w-75 mb-3'>With heartfelt anticipation,</p>
                 <p className='text-center w-75'>The Tezpur University Alumni Network Team</p>
             </div>
