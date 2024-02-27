@@ -1,0 +1,30 @@
+/* Container for the entire sign-in page */
+.sign-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(rgba(5, 10, 35, 0.75), rgba(5, 10, 35, 0.75)), url('../../utils/images/tezu-home.jpg') center center/cover;
+}
+
+/* Container for the sign-in form */
+.form-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 0 auto; /* Center the form container horizontally */
+}
+
+.field{
+    margin-left: 30;
+    display: block;
+}
+
+
+/* Style the labels and placeholder text */
+.form-group label,
+.form-control::placeholder {
+    color: white;
+}
