@@ -36,7 +36,7 @@ function Contact() {
             alert("Message can't be left Blank!");
         }
         else{
-            // const url = 'http://localhost:80/react-university-website-master/src/pages/Contact/Contact.php';
+            const url = 'http://localhost:80/react-university-website-master/src/pages/Contact/Contact.php';
 
             const frmData = new URLSearchParams();
             frmData.append('first_name', first_name);
@@ -47,30 +47,8 @@ function Contact() {
             frmData.append('history', history);
             frmData.append('msg', msg);
             
-            // console.log(frmData);
-            // axios.post(url, frmData).then(response=> alert(response.data)).catch(error=> alert(error));
-
-            fetch('http://localhost:80/react-university-website-master/src/pages/Contact/Contact.php', {
-                method: 'POST',
-                body: frmData
-            }).then(response=> response.text()).then(data => {console.log('Fetch is executed!', data);}).catch(error => {console.error('Fetch Error!', error);});
-            // const data = {
-            //     first_name,
-            //     last_name,
-            //     email,
-            //     alum_name,
-            //     reason,
-            //     history,
-            //     msg
-            // };
-
-            // const submitrequest = {
-            //     method: "POST",
-            //     headers: {
-            //         "Content-Type": "application/json"
-            //     },
-            //     body: JSON.stringify(data)
-            // };
+            console.log(frmData);
+            axios.post(url, frmData).then(response=> alert(response.data)).catch(error=> alert(error));
         };
               
         console.log('Form submitted:', {
@@ -83,14 +61,10 @@ function Contact() {
           msg,
         });
     
-        // // Reset form fields if needed
-        // setFirst_name('');
-        // setLast_name('');
-        // setEmail('');
-        // setAlum_name('');
-        // setReason('Expressing Gratitude');
-        // setHistory('No');
-        // setMsg('');
+        setEmail('');
+        setAlum_name('');
+        setReason('Expressing Gratitude');
+        setHistory('No');
     };
  
     return (
@@ -106,7 +80,7 @@ function Contact() {
             </header>
 
             <div className='container my-5 d-flex justify-content-center'>
-                <Form id='contact-form' method='post' action= 'Contact.php' onSubmit={handleSubmit}>
+                <Form id='contact-form' method='POST' action= 'Contact.php' onSubmit={handleSubmit}>
                     <Row className='mb-3'>
                         <Col sm={12} md={6} className='mb-3 mb-md-0'>
                             <Form.Label>First Name</Form.Label>

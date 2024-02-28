@@ -6,7 +6,7 @@ function Sign() {
     const [formData, setFormData] = useState({
         rollNumber: '',
         email: '',
-        loginAs: 'student' // Default login as student
+        loginAs: 'student' 
     });
 
     const handleChange = (event) => {
@@ -16,16 +16,15 @@ function Sign() {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        // Add logic to handle form submission (e.g., sending credentials to the backend)
         console.log(formData);
     };
 
     return (
         <div className='sign-container'>
-            <div className='container my-5'>
+            <div className='container my-5 '>
                 <div className='form-container'>
                     
-                    <Form id='contact-form' onSubmit={handleSubmit}>
+                    <Form id='contact-form' className='field' onSubmit={handleSubmit}>
                         <Form.Label>Roll Number</Form.Label>
                         <Form.Control
                             type='text'
@@ -33,7 +32,7 @@ function Sign() {
                             value={formData.rollNumber}
                             onChange={handleChange}
                             placeholder='Enter your roll number'
-                            style={{ marginBottom: '10px' }}
+                            style={{ width: '33.157vw', marginBottom: '10px' }}
                         />
 
                         <Form.Label>Email Address</Form.Label>
@@ -43,7 +42,7 @@ function Sign() {
                             value={formData.email}
                             onChange={handleChange}
                             placeholder='Enter your email address'
-                            style={{ marginBottom: '10px' }}
+                            style={{ width: '33.157vw', marginBottom: '10px' }}
                         />
 
                         <Form.Label>Login As</Form.Label>
@@ -51,6 +50,7 @@ function Sign() {
                             name='loginAs'
                             value={formData.loginAs}
                             onChange={handleChange}
+                            style={{ width: '33.157vw', marginBottom: '10px' }}
                         >
                             <option value='student'>Student</option>
                             <option value='alumni'>Alumni</option>
