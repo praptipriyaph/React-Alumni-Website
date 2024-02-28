@@ -116,17 +116,19 @@ function SignIn() {
                             >
                                 If you do not have an account:
                             </p>
-                            <Button 
-                            variant="danger btn-lg" 
-                            type='submit' 
-                            style={
-                                { width: '9.1vw', marginTop: '0.1vw', display: 'block'}
-                                }
-                            >
-                                Sign Up
-                            </Button>
                         </div>
-                    </Form>                    
+                    </Form>
+                    <div style={{width: '33.157vw', marginBottom: '0vw', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column'}}> 
+                        <Button 
+                                variant="danger btn-lg" 
+                                type='submit' 
+                                style={
+                                    { width: '9.1vw', marginTop: '0.09vw', display: 'block'}
+                                    }
+                                >
+                                    Sign Up
+                        </Button>                   
+                    </div>
                 </div>
             </div>
         </div>
