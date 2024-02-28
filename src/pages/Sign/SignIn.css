@@ -12,6 +12,8 @@
     width: 39vw;
     max-width: 39vw;
     padding: 3vw;
+    padding-top: 1.9vw;
+    padding-bottom: 1.9vw;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.8);
     margin: 0 auto; /* Center the form container horizontally */

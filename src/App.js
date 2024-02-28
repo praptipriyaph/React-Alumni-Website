@@ -8,7 +8,7 @@ import Networks from './pages/Networks/Networks';
 import Pride from './pages/Pride/Pride';
 import Alumni from './pages/Alumni/Alumni';
 import Contact from './pages/Contact/Contact';
-import Sign from './pages/Sign/Sign';
+import SignIn from './pages/Sign/SignIn';
 
 
 function App() {
@@ -36,7 +36,7 @@ function App() {
               <Nav.Link href='/networks' className='text-uppercase'>Our Network</Nav.Link>
               <Nav.Link href='/contact' className='text-uppercase'>Get in touch</Nav.Link>
               <Nav.Link href='/Pride' className='text-uppercase'>Our Pride</Nav.Link>
-              <Nav.Link href='/Sign' className='text-uppercase'>Sign In</Nav.Link>
+              <Nav.Link href='/SignIn' className='text-uppercase'>Sign In/Up</Nav.Link>
 
             </Nav>
           </Navbar.Collapse>
@@ -49,7 +49,7 @@ function App() {
         <Route path='/Pride' element={<Pride />} />
         <Route path='/Alumni' element={<Alumni />} />
         <Route path='/contact' element={<Contact />} />
-        <Route path='/Sign' element={<Sign />} />
+        <Route path='/SignIn' element={<SignIn />} />
 
       </Routes>
 
