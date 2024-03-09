@@ -189,8 +189,8 @@ function Alumni() {
                                 <Card className='h-100 shadow scale-hover-effect bg-dark text-light border-0'>
                                     <Card.Img variant="top" src={Alumni.img} />
                                     <Card.Body className='p-md-5 d-flex flex-column align-items-center'>
-                                        <Card.Title className='fs-2 mb-4'>{Alumni.title}</Card.Title>
-                                        <Card.Text className='text-center'>{Alumni.description}<br/><br/>{Alumni.designation}</Card.Text>
+                                        <Card.Title className='text-center'>{Alumni.title}</Card.Title>
+                                        
                                     </Card.Body>
                                 </Card>
                             </Link>
